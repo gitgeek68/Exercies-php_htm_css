@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title> title</title>
+        <style> 
+        .toto  
+        {
+            display:inline-block;
+            width:300px;
+            margin-bottom: 10px;
+        }
+        
+        input[type="number"]/*selectionne une balise et precise les types 'number'*/
+        {
+            
+           width:50px;
+        }
+        
+        .submit  
+        {
+            width: 125px;
+            margin-left: 190px;
+        }
+        
+        button [type="submit"]
+        {
+            width: 125px;
+        }
+        </style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+       
+            <h1>Un petit formulaire(pour commencer)</h1>
+            <p> Merci de renseigner les informations suivantes: </p>
+            <form action="formulaire_submit_objet.php" method="post">
+            
+            <label class="toto">Votre nom:</label>
+            <input type='text' name='nom' id='nom'>
+            <br>
+            <label class="toto">Votre âge:</label>
+            <input type='number' name='age' id='age'>
+            
+            <br>
+            
+            <label class="toto">Votre situation maritale:</label>
+            
+            
+            <input checked="checked" type='radio' name='marital' id='marital1' value="marié">
+            <label for="marital1">marié</label>
+            
+             <input type='radio' name='marital' id='marital2'value="veuf">
+              <label for="marital2">veuf</label>
+            
+            <input type='radio' name='marital' id='marital3'value="célib">
+            <label for="marital3">célibataire</label>
+            
+            <br>
+            
+            
+            <label class="toto">Vos centres d'interets:</label>
+            
+            
+            <input checked="checked" 
+                   type="checkbox"
+                   name="interets[internet]" 
+                   id="interet1" 
+                   value="internet"
+            >
+            
+            <label  
+                for="internet1">internet
+            </label>
+            
+             <input
+                 type="checkbox" 
+                 name="interets[microInformatique]" 
+                 id="interet2" value="micro-informatique"
+             >
+             
+            <label  for="internet2">micro-informatique</label>
+            
+             <input type="checkbox" name="interets[jeux-video]" id="interet3" value="jeux-video">
+            <label  for="internet3">jeux video</label>
+            
+            <br>
+            <br>
+
+            
+            
+            
+            <button type="reset" >Recommencer</button>
+            <button type="submit" class="submit">Envoyer</button>
+        </form>
+    </body>
+</html>

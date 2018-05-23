@@ -1,0 +1,284 @@
+body > div > header,
+body > div >div> nav,
+main,
+body > div > footer
+{
+     border: 1px solid green;
+   /* margin-top: 5px;*/
+     margin-bottom: 5px;
+     padding: 5px;
+     /*box-shadow: 10PX 5PX 1PX #ccc ;/*ombrage de box et avec text-shadows ombrage de texte*/
+     border-radius: 5px;
+}
+
+body > div > header
+{
+    border-top: none;
+    border-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    /*bordure arrondis gauche et droite*/
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    /*background-image: url('/exercices_mvc/assets/img/verdure.jpg');*/
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    
+    
+   
+}
+
+header
+{
+    
+    background-color: #fFFffF60;
+   
+}
+
+
+
+#logo
+{
+    transition: all 5s;
+    transition:opacity 5s;/* determine la vitesse de changement d opacitéé*/
+    /*opacity: .5;/*opacité*/
+    border: 5px solid #090;
+}
+
+
+#logo:hover
+{
+    opacity: 1;
+    border-color:blue;
+}
+
+main>h2
+{
+   border:greenyellow solid 1px;
+   text-align: center;
+   
+}
+
+main>h2:hover
+{
+   transition: background 5s;
+   background-color: #F1FFCC;
+   
+}
+
+
+
+a:link,a:visited/*valable uniquement pour les liens*/
+{
+    color:  black ;
+   
+   
+}
+
+a:hover/*modifications des regles du a au passage de la souris*/
+{
+     text-decoration: underline;
+     font-weight: bold;
+    
+}
+
+a:active/*au moment ou l'on clic dessus,principalement pour les mobiles*/
+{
+   color:  blueviolet; 
+}
+
+/*a:link toutes les balises a qui propose un lien
+{
+    color:  #E1553E;
+}
+
+a:visited toutes les balises a qui propose un lien visité change de couleurs
+{
+     color:  #81D7E3;
+}*/
+
+
+
+#mainMenu li a:link,#mainMenu li a:visited
+{
+    color: greenyellow;
+}
+
+#mainMenu li a:hover
+{
+    color: black;
+    background-color: #E04644
+   
+    
+}
+
+#mainMenu
+{
+    background-color: #555E7B;
+}
+
+main
+{
+    margin-left: 2px;
+    background-color: #F8F6F6;
+    
+}
+
+
+
+
+.container
+{
+   /* border-style:solid ; 
+    border-color: blue;
+    
+   border : 1px solid pink;*/
+  
+}
+
+body
+{
+    background-image: url('/exercices_mvc/assets/img/natures.jpeg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+footer
+{
+     background-color: greenyellow;
+}
+
+footer>p>a  
+{
+    padding-left: 35px;
+    
+}
+#mainMenu li a/* main menu les tous les a apres li*/
+{
+  border :2px solid;
+  height:80px;/*hauteur*/
+  width: 80px;/*largeur*/
+  border-radius:50%; /*arrondis les bords*/
+  text-align: center;/*aligne le text au centre*/
+  margin:20px;/*marge*/
+  padding-top: 25px;
+  /* La propriété padding est une 
+     propriété raccourcie qui permet
+     de définir les différents écarts
+     de remplissage d'un élément,
+     sur l'ensemble de ses côtés */
+}
+
+#connexion  
+{
+   float:right;
+   background-color: black;
+   color: greenyellow;
+}
+
+#connexion:hover
+{
+    background-color: yellow;
+    color: black;
+}
+.nav-pills .nav-link.active
+{
+    background-color: #7779dd; 
+}
+
+.labelRight
+{
+ float : right;
+}
+#identidication
+{
+    
+    margin-left: 75px;
+    height:40px;/*hauteur*/
+    width: 300px;/*largeur*/
+    
+    
+}
+
+#facebook,#twitter
+{
+        margin:auto;
+        height:40px;/*hauteur*/
+        width: 150px;/*largeur*/
+}
+
+#facebook   
+{
+    background-color: 	#3b5998;
+}
+
+#twitter
+{
+   
+   background-color:#1dcaff; 
+}
+
+#ou
+{
+    text-align: center; 
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight:bold;
+    color:black;
+}
+
+.modal-footer button
+{
+    display: block;
+  
+    
+}
+
+/*main h2
+{
+   text-shadow: -10PX 5PX 1PX green;
+}
+*/
+main
+{
+   
+    background-color: #ffffff50;
+}
+
+main *
+{
+    opacity: 1;
+}
+
+#logo
+{
+    width: 250px;
+    height: 200px;
+    opacity: 0.2;
+    
+}
+
+
+#identidication
+{
+    background-color: black;
+    color: greenyellow;
+}
+#identidication:hover
+{
+    background-color: greenyellow;
+    color: black;
+}
+
+.modal-content
+{
+    background-color:#FFEDCC; 
+}
+
+.modal
+{
+    background-image: url('/exercices_mvc/assets/img/natures.jpeg');
+}

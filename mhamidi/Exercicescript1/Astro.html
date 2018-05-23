@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Astro.html</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="Normalyze.css"/>
+        <link rel="stylesheet" type="text/css" href="MiseEnFORME.css"/>
+        <script src="AstroScript.js"></script>
+        
+    </head>
+    <body onload="Birthday()">
+        <header>
+        <h1>Titre niveau 1</h1>
+        <h2>Titre niveau 2</h2>
+        </header>
+        <br>
+        <form action="Accueil.html" onsubmit="return FormOk()">
+            <textarea name="commentaire" cols = 30 rows =10 >
+            </textarea>
+           <br>
+           <p>
+           <input id="NomUtilisateur" name="NomUtilisateur">Nom
+           <input id="PrenomUtilisateur" name="PrenomUtilisateur">Prenom
+           </p>
+           <br>
+           <img  src ="../image/KISS.GIF" alt="K"/>
+           <p>
+          
+           <select id ="annee"><option value = "--">--</option></select>
+           <select id ="mois"><option value = "--">--</option></select>
+           <select id ="jour"><option value = "--">--</option></select>
+           </p>
+           <p>
+               <input id="pseudo" type='text' readonly>
+           </p>
+           <input type="submit" value="Envoyer">
+           <input type="reset" value="Recommencer">
+           
+          
+
+               
+        </form>
+        <p> </p>
+        <footer>
+        Copyright
+        </footer> 
+    </body>
+</html>

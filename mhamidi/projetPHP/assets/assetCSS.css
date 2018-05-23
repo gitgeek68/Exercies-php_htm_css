@@ -1,0 +1,23 @@
+*
+{
+  border:1px solid black ;   
+}
+
+body,footer
+{
+    border:1px solid black ;
+    margin:5px;
+    padding-left: 25px;
+    text-justify: 5px;
+      
+}
+
+h1
+{
+    text-align: center;
+    text-decoration:underline;
+    color:blue;
+    background-color: yellowgreen;
+    padding-bottom: 10px;
+    
+}

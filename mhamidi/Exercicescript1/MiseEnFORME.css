@@ -1,0 +1,47 @@
+ 
+
+
+body 
+{
+     color:white;
+     padding-left: 100px;
+     /*La propriété padding-left d'un élément correspond à l'espace 
+     nécessaire à la gauche d'un élément. */
+     background-color: royalblue;
+     /*Correspond à la couleur de fond*/
+}
+h1
+{
+    text-align:center; 
+    color: red;
+    font-size:40px;
+    text-decoration: underline;
+    /*souligne le texte*/
+/*    text-align: justify;*/
+    font-style: italic;
+}
+
+h2 
+{
+    font-size:x-large;
+    font-family:verdana;
+    /*La propriété font-family permet de définir une liste, ordonnée par 
+    priorité, de polices à utiliser pour mettre en forme 
+    le texte de l'élément ciblé.*/
+    color:yellow;
+}
+
+img
+{
+    float: right;
+    /*La propriété font-family permet de définir une liste, ordonnée 
+    par priorité, de polices à utiliser pour mettre en forme 
+    le texte de l'élément ciblé.*/
+}
+
+
+
+     
+     
+            
+

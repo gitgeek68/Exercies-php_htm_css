@@ -1,0 +1,27 @@
+{
+    "name":"CRM/TEDI/MVC",
+    "description": "A MVC Web Software",
+    "version": "1.0.0",
+    "type": "project" ,
+    "homepage": "http://www.arfp.asso.fr",
+    "minimum-stability": "stable" ,
+    "licence": "MIT" ,
+    "authors":
+    [
+ {
+        "name": "Michael Hamidi" ,
+        "email": "hamidi.blabla@outlook.fr",
+        "homepage":"https://google.fr" ,
+        "role":"developer"
+ }
+        
+    ],
+
+    
+    "require":
+    {
+        "php":"^5.5 || ^7.0",
+        "twig/twig": "~2.0",
+        "silex/silex": "~2.0"
+    }
+}
